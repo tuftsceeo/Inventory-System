@@ -38,3 +38,5 @@ In order to create a button in Google spreadsheets, you must insert a photo in a
 A helpful tutorial on sending emails from a Spreadsheet with a column of emails:
 - https://developers.google.com/apps-script/articles/sending_emails
 
+To see the Inventory Project: https://docs.google.com/spreadsheets/d/1q74d5TzMP8CcIpwsuiDnNBASyI1cfZQ8WzAVWHrKMdQ/edit?usp=sharing
+
