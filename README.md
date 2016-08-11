@@ -22,6 +22,7 @@ While I spent a month working on this project, there are definitely more steps t
 - Should the user choose a return date or should there be a return date unique to each item? (Computers can only be borrowed for a week, USB cables need to be returned by the end of the semester, etc)
 - How can you make the user avoid having to click any buttons (Submit) and only need to scan?
 - As a new user, it could be easier to enter new information (first name, last name, and email). It seemed to not be entirely that easy to navigate the page during a demo.
+- How can you make it faster? There are many loops that the program searches through that makes it lag.
 
 To see the Inventory Project: https://docs.google.com/spreadsheets/d/1q74d5TzMP8CcIpwsuiDnNBASyI1cfZQ8WzAVWHrKMdQ/edit?usp=sharing
 
