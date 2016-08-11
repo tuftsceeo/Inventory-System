@@ -4,6 +4,13 @@ Inventory Project
 
 In an effort to keep track of Ethan Danahy’s office items, I created a user interface using Google Spreadsheets’ Script Editor to manage the flow of items coming in and out of his office space. The Script Editor is a very powerful tool where one can program their own, unique functions in JavaScript, making the capabilities of any spreadsheet almost limitless. By simply scanning one’s ID, the item’s barcode, and a return date, people can easily check an item in or out within seconds. The main page has many functions, including displaying the history of an item and its whereabouts, reporting a broken/missing item, adding a new item to the inventory, and searching the inventory for items.
 
+**How to use it**
+
+The desired process behind using this interface:
+- Take the scanner and scan your item's barcode and then your own ID's barcode. Numbers will fill fields accordingly.
+- Look at the labeled sheet with different return dates (barcodes encoded with "a week", "a month", "end of the semester", "6/16/17", etc) and scan return label.
+- Press submit and all your information will be stored (assuming you are a returning user)
+
 **Future of the Project**
 
 While I spent a month working on this project, there are definitely more steps that can be taken to further the inventory system. 
@@ -12,6 +19,9 @@ While I spent a month working on this project, there are definitely more steps t
 - When you have a kit with multiple items, should the person have to check out each individual item by hand or does the system take care of that? What if the user loses one of the individual items in the kit and the system thinks that a missing camera is actually available?
 - The search function on Add page could use improvement. How can you easily get back to the main page without lots of buttons on the sheet?
 - How can the user interface be made more intuitive and straightforward?
+- Should the user choose a return date or should there be a return date unique to each item? (Computers can only be borrowed for a week, USB cables need to be returned by the end of the semester, etc)
+- How can you make the user avoid having to click any buttons (Submit) and only need to scan?
+- As a new user, it could be easier to enter new information (first name, last name, and email). It seemed to not be entirely that easy to navigate the page during a demo.
 
 To see the Inventory Project: https://docs.google.com/spreadsheets/d/1q74d5TzMP8CcIpwsuiDnNBASyI1cfZQ8WzAVWHrKMdQ/edit?usp=sharing
 
