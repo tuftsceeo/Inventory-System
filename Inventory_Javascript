@@ -716,6 +716,23 @@ function saveAndReturn() {
     }
 }
 
+// purp: to take the entered item ID and place it in the missing/broken field on the Add sheet
+function messedUp() {
+    var form = SpreadsheetApp.getActive().getSheetByName('Enter Form');
+    var itemID = form.getRange('C2').getDisplayValue();
+  
+    // made Add the active sheet
+    var add = SpreadsheetApp.getActive().getSheetByName('Add');
+    SpreadsheetApp.setActiveSheet(add);
+  
+    // want the cursor to go to the top of the Add shet
+    var range = add.getRange('C19');
+    add.setActiveRange(range);
+  
+    // put itemID into C17
+    add.getRange('C17').setValue(itemID);
+}
+
 // purp: to collect info about broken/missing item and add to Missing/Broken sheet
 //       this function assumes that it won't be broken before its first check out
 function saveAndReturn2() {
